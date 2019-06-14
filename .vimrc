@@ -33,6 +33,9 @@ set backspace=indent,eol,start
 " ヤンクした結果をクリップボードで保持する for Mac
 set clipboard+=unnamed
 
+" 検索結果のハイライトが邪魔な時に消す
+nnoremap <C-@> :noh<CR>
+
 " coc プラグイン入れたらメッセージが出てきたので FAQ に従った
 " https://github.com/neoclide/coc.nvim/wiki/F.A.Q#linting-is-slow
 set updatetime=300
