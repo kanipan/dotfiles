@@ -36,6 +36,9 @@ set clipboard+=unnamed
 " 検索結果のハイライトが邪魔な時に消す
 nnoremap <C-@> :noh<CR>
 
+" ctags で複数候補がある場合は一覧表示
+nnoremap <C-]> g<C-]>
+
 " coc プラグイン入れたらメッセージが出てきたので FAQ に従った
 " https://github.com/neoclide/coc.nvim/wiki/F.A.Q#linting-is-slow
 set updatetime=300
