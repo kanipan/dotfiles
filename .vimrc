@@ -40,6 +40,15 @@ nnoremap <C-@> :noh<CR>
 nnoremap <C-]> g<C-]>
 inoremap <C-]> <ESC>g<C-]>
 
+" ファイル名表示
+set statusline=%F
+
+" 現在の行/全体の行
+set statusline+=[LOW=%l/%L]
+
+" ステータスを常に表示
+set laststatus=2
+
 " coc プラグイン入れたらメッセージが出てきたので FAQ に従った
 " https://github.com/neoclide/coc.nvim/wiki/F.A.Q#linting-is-slow
 set updatetime=300
