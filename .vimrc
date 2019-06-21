@@ -38,6 +38,7 @@ nnoremap <C-@> :noh<CR>
 
 " ctags で複数候補がある場合は一覧表示
 nnoremap <C-]> g<C-]>
+inoremap <C-]> <ESC>g<C-]>
 
 " coc プラグイン入れたらメッセージが出てきたので FAQ に従った
 " https://github.com/neoclide/coc.nvim/wiki/F.A.Q#linting-is-slow
